@@ -146,7 +146,7 @@ private:
 		node* left_Branch;
 	};
 	node* root;
-	void deleter(node* point); 
+	void del(node* point); 
 public:
 	Branch_tree(int);
 	~Branch_tree(); 
