@@ -153,18 +153,18 @@ int Branch_tree::bft_iterator::intnext()
 	return current->data;
 }
 
-void Branch_tree::deleter(node* current) // deleting a tree
+void Branch_tree::del(node* current) // deleting a tree
 {
 	if (current == NULL) return;
 	if (current->left_Branch != NULL) //remove the left side
 	{
 		node* Left_Node = current->left_Branch;
-		deleter(Left_Node);
+		del(Left_Node);
 	}
 	if (current->Right_Branch != NULL) //remove the right side
 	{
 		node* Right_Node = current->Right_Branch;
-		deleter(Right_Node);
+		del(Right_Node);
 	}
 	delete current;
 }
@@ -179,5 +179,5 @@ Branch_tree::Branch_tree(int Data_Branch)
 }
 Branch_tree::~Branch_tree()
 {
-	deleter(root);
+	del(root);
 }
