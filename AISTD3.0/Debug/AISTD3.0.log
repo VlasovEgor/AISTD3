@@ -1,0 +1,3 @@
+﻿  AISTD3.0.cpp
+C:\Users\vlaso\Desktop\tipoy4ys'\прога\AISTD\AISTD3.0\AISTD3.0.h(61,8): error C2760: синтаксическая ошибка: непредвиденный токен "идентификатор"; требуется ";"
+C:\Users\vlaso\Desktop\tipoy4ys'\прога\AISTD\AISTD3.0\AISTD3.0.h(78): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Queue<T>"
